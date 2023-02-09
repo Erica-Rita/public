@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #e6e6e6;
+    background-image: url("./assets/images/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 15%;
+
+}
+
+.menu{
+	font-family: "impact";
+	font-size: 16pt;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	text-align: center;
+	
+}
+.menu ul li{
+
+	padding: 20px;
+	flex-grow: 1;
+	transition: background-color .2s linear;
+	border: solid 1px transparent;
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	color: #f2f2f2;
+	}
+.menu ul li ul{
+	background-color: #f00;
+	display: none;
+}
+.menu ul li:hover{
+	border: solid 1px #fff;
+	background-color:transparent !important;
+	cursor: pointer;
+}
+.menu ul li:hover ul li ul{
+	display: block;
+}
+#item1{
+	background-color: rgb(138, 130, 138);
+}
+#item2{
+	background-color: rgb(138, 130, 138);
+}
+#item3{
+	background-color: rgb(138, 130, 138);
+}
+#item4{
+	background-color: rgb(138, 130, 138);
+}
+#item5{
+	background-color: rgb(138, 130, 138);
+}
+@media (max-width: 520px) {
+ .menu ul{
+ 	display:block;
+ }
+
+}
